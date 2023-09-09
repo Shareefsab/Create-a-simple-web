@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    height: 120vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+
+}
+
+
+.minicontainer {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nav-up {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 95%;
+}
+
+.left-side a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.center a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.right-side a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.Consumer {
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.wait {
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 13%;
+    margin-right: 10%;
+    gap: 50px;
+}
+
+.main-left-side {
+    height: 300px;
+    width: 300px;
+}
+
+.main-left-side h1 p {
+    margin-top: 10px;
+}
+
+
+.main-right-side {
+    height: 300px;
+    width: 300px;
+}
+
+#input-detail {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.input-detail {
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: brown;
+}
+
+.main-left-side p {
+    margin-top: 15px;
+}
+
+.main-right-side {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#img-right {
+    height: 230px;
+    width: 200px;
+}
+
+.foot-container {
+    margin-bottom: 50px;
+
+}
+
+.main-bottom {
+    height: 50px;
+    width: 80%;
+    margin-left: 12%;
+    margin-right: 11%;
+    display: flex;
+    align-items: center;
+}
+
+.main-bottom a {
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-bottom-right {
+    margin-left: 268px;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+}
